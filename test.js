@@ -1,9 +1,9 @@
 
 const assert = require('assert');
-const { add } = require('./index');
+const { sub } = require('./index');
 
-assert.strictEqual(add(5, 3), 2, 'add(5, 3) should return 2');
-assert.strictEqual(add(10, 4), 6, 'add(10, 4) should return 6');
-assert.strictEqual(add(0, 5), -5, 'add(0, 5) should return -5');
+assert.strictEqual(sub(5, 3), 2, 'sub(5, 3) should equal 2');
+assert.strictEqual(sub(10, 4), 6, 'sub(10, 4) should equal 6');
+assert.strictEqual(sub(0, 5), -5, 'sub(0, 5) should equal -5');
 
 console.log('All tests passed!');
